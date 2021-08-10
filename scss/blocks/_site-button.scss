@@ -1,0 +1,6 @@
+// SITE BUTTON
+
+.site-button {
+  @include site-button;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+/* Listlarni qayta sozlash */
+@mixin reset-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Linkni qayta sozlash */
+@mixin reset-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Button uchun umumiy stillar */
+@mixin site-button {
+  padding: 8px 36px;
+  border: none;
+  border-radius: 22px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: $color-text-white;
+  background-color: #33d35e;
+  background-image: $site-gradient;
+}
+@mixin background {
+  background-image: url(../images/intro_phone.png);
+  background-repeat: no-repeat;
+}

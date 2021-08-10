@@ -1,0 +1,42 @@
+// INTRO SECTION
+.intro-section__container  {
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+.intro__content {
+  width: 447px;
+  margin-top: 170px;
+}
+
+.intro__title {
+  margin: 0;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: $color-text-dark;
+  width: 394px;
+}
+
+.intro__text {
+  margin-top: 24px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: $color-text;
+}
+
+
+  .intro-right__img{
+    position: absolute;
+    top: -205px;
+    left: 505px;
+    z-index: -3;
+  }
+.intro-right__img-second{
+  position: absolute;
+    left: 582px;
+    z-index: -1;
+}

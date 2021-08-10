@@ -1,0 +1,43 @@
+/* SITE HEADER */
+.site-header {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header-wrapper__logo {
+  display: inline-block;
+}
+
+.header-wrapper__img {
+  display: block;
+  width: 139px;
+  height: 20px;
+}
+.header-wrapper__ul {
+  @include reset-list;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper__li ~ .header-wrapper__li {
+  margin-left: 30px;
+}
+
+.header-wrapper__link {
+  @include reset-link;
+  color: $color-text;
+  transition: 300ms all;
+}
+.header-wrapper__link:hover{
+  color:mediumpurple;
+  transform: scale(1.2);
+}
