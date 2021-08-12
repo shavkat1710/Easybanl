@@ -51,7 +51,7 @@
   background-color:transparent;
   display: none;
 }
-@include breakpoint-down (725px){
+@include breakpoint-down (740px){
   .header-wrapper__hamburger-button{
    display: block;
   }
@@ -67,5 +67,19 @@
     justify-content: space-between;
     padding-top: 18px;
     padding-bottom: 18px;
+  }
+  .header-wrapper__img {
+    display: block;
+    width: 100px;
+    height: 25px;
+    object-fit: contain;
+  }
+  .header-wrapper {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-wrapper__hamburger-img{
+    width: 22px;
+    height: 16px;
   }
 }
