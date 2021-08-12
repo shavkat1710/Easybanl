@@ -22,8 +22,12 @@
   color: $color-text-white;
   background-color: #33d35e;
   background-image: $site-gradient;
+  
 }
-@mixin background {
-  background-image: url(../images/intro_phone.png);
-  background-repeat: no-repeat;
-}
+
+
+   @mixin breakpoint-down ($screen-width) {
+     @media only screen and (max-width:$screen-width) {
+       @content
+     }
+   }

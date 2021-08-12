@@ -41,3 +41,31 @@
   color:mediumpurple;
   transform: scale(1.2);
 }
+.header-wrapper__hamburger-img{
+  width: 24px;
+  height: 11px;
+  display: block;
+}
+.header-wrapper__hamburger-button{
+  border: none ;
+  background-color:transparent;
+  display: none;
+}
+@include breakpoint-down (725px){
+  .header-wrapper__hamburger-button{
+   display: block;
+  }
+  .header-wrapper__nav{
+    display: none;
+  }
+  .site-button{
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}

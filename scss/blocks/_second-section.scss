@@ -40,3 +40,9 @@
   text-align: left;
   letter-spacing: -0.25px;
 }
+@include breakpoint-down(740px){
+  .second-section__title {
+    font-size: 30px;
+    margin-top: 180px;
+  }
+}
