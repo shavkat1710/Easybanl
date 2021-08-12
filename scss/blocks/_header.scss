@@ -83,3 +83,131 @@
     height: 16px;
   }
 }
+@include breakpoint-down (640px){
+  .header-wrapper__hamburger-button{
+   display: block;
+  }
+  .header-wrapper__nav{
+    display: none;
+  }
+  .site-button{
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-wrapper__img {
+    display: block;
+    width: 100px;
+    height: 20px;
+    object-fit: contain;
+  }
+  .header-wrapper {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-wrapper__hamburger-img{
+    width: 18px;
+    height: 12px;
+  }
+}
+@include breakpoint-down (520px){
+  .header-wrapper__hamburger-button{
+   display: block;
+  }
+  .header-wrapper__nav{
+    display: none;
+  }
+  .site-button{
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header-wrapper__img {
+    display: block;
+    width: 85px;
+    height: 16px;
+    object-fit: contain;
+  }
+  .header-wrapper {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .header-wrapper__hamburger-img{
+    width: 16px;
+    height: 10px;
+  }
+}
+@include breakpoint-down (520px){
+  .header-wrapper__hamburger-button{
+   display: block;
+  }
+  .header-wrapper__nav{
+    display: none;
+  }
+  .site-button{
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .header-wrapper__img {
+    display: block;
+    width: 85px;
+    height: 16px;
+    object-fit: contain;
+  }
+  .header-wrapper {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .header-wrapper__hamburger-img{
+    width: 16px;
+    height: 10px;
+  }
+}
+@include breakpoint-down (420px){
+  .header-wrapper__hamburger-button{
+   display: block;
+  }
+  .header-wrapper__nav{
+    display: none;
+  }
+  .site-button{
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .header-wrapper__img {
+    display: block;
+    width: 85px;
+    height: 14px;
+    object-fit: contain;
+  }
+  .header-wrapper {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .header-wrapper__hamburger-img{
+    width: 16px;
+    height: 10px;
+  }
+}
